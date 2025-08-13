@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        // Tipografía principal (serif elegante)
+        'serif': ['var(--font-playfair)', 'Playfair Display', 'serif'],
+        // Tipografía secundaria (sans serif moderna)
+        'sans': ['var(--font-montserrat)', 'Montserrat', 'sans-serif'],
+        // Alias para uso específico
+        'display': ['var(--font-playfair)', 'Playfair Display', 'serif'],
+        'body': ['var(--font-montserrat)', 'Montserrat', 'sans-serif'],
+      },
       colors: {
         // Nueva paleta de colores con excelente contraste
         background: '#1B2A49', // Azul oscuro - fondo principal
