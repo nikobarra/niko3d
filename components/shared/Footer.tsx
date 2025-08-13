@@ -76,7 +76,9 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-text-accent" />
-                <span className="text-text-secondary">info@niko3d.com</span>
+                <span className="text-text-secondary">
+                  calaverasydiablitos1979@gmail.com
+                </span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-text-accent" />

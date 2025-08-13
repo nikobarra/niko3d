@@ -44,23 +44,26 @@ Un catálogo online moderno y responsive para productos de impresión 3D, constr
 
 ### Prerrequisitos
 
-- Node.js 18+ 
+- Node.js 18+
 - npm o yarn
 
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
+
    ```bash
    git clone <url-del-repositorio>
    cd ecommerce-3d-printing
    ```
 
 2. **Instalar dependencias**
+
    ```bash
    npm install
    ```
 
 3. **Ejecutar en modo desarrollo**
+
    ```bash
    npm run dev
    ```
@@ -73,18 +76,21 @@ Un catálogo online moderno y responsive para productos de impresión 3D, constr
 ## 📱 Funcionalidades Principales
 
 ### 🛍️ Catálogo de Productos
+
 - Visualización de productos en grid responsive
 - Filtrado por categorías
 - Información detallada de cada producto
 - Precios en pesos argentinos
 
 ### 🛒 Carrito de Compras
+
 - Agregar productos con cantidad personalizable
 - Modificar cantidades
 - Eliminar productos
 - Cálculo automático del total
 
 ### 📱 Integración WhatsApp
+
 - Formateo automático del mensaje de pedido
 - Envío directo al número configurado
 - Inclusión de detalles del pedido y total
@@ -92,13 +98,16 @@ Un catálogo online moderno y responsive para productos de impresión 3D, constr
 ## 🎨 Personalización
 
 ### Colores
+
 El proyecto utiliza una paleta de colores personalizada definida en `tailwind.config.js`:
+
 - **Fondo**: `#111827` (gray-900)
 - **Texto**: `#F9FAFB` (gray-50)
 - **Primario**: Cian (`#06b6d4`)
 - **Acento**: Magenta (`#d946ef`)
 
 ### Componentes
+
 Todos los componentes están construidos con Tailwind CSS y son fácilmente personalizables modificando las clases CSS.
 
 ## 📊 Datos de Productos
@@ -121,12 +130,15 @@ Los productos se gestionan desde `data/products.json` con la siguiente estructur
 ## 🚀 Despliegue
 
 ### Vercel (Recomendado)
+
 1. Conectar el repositorio a Vercel
 2. Configurar variables de entorno si es necesario
 3. Desplegar automáticamente
 
 ### Otros Proveedores
+
 El proyecto es compatible con cualquier proveedor que soporte Next.js:
+
 - Netlify
 - Railway
 - Heroku
@@ -142,6 +154,7 @@ El proyecto es compatible con cualquier proveedor que soporte Next.js:
 ## 📱 Responsive Design
 
 El proyecto está diseñado con un enfoque mobile-first:
+
 - **Móvil**: 1 columna de productos
 - **Tablet**: 2 columnas de productos
 - **Desktop**: 3-4 columnas de productos
@@ -172,8 +185,9 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ## 📞 Soporte
 
 Para soporte técnico o consultas:
+
 - **WhatsApp**: +54 226 644-0616
-- **Email**: info@3dprintstore.com
+- **Email**: calaverasydiablitos1979@gmail.com
 
 ---
 
