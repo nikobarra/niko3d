@@ -14,17 +14,18 @@ export function Footer() {
               </div>
               <div>
                 <h3 className="text-xl font-display font-bold text-text-primary">
-                  3D Print Store
+                  Niko3D
                 </h3>
                 <p className="text-sm font-body text-text-muted">
-                  Impresiones 3D Personalizadas
+                  Tus ideas, en tres dimensiones
                 </p>
               </div>
             </div>
             <p className="text-text-secondary font-body leading-relaxed max-w-md">
-              Especialistas en impresión 3D personalizada. Creamos productos únicos 
-              y de alta calidad para satisfacer todas tus necesidades. Desde accesorios 
-              hasta decoración, cada pieza es fabricada con precisión y dedicación.
+              Especialistas en impresión 3D personalizada. Creamos productos
+              únicos y de alta calidad para satisfacer todas tus necesidades.
+              Desde accesorios hasta decoración, cada pieza es fabricada con
+              precisión y dedicación.
             </p>
           </div>
 
@@ -35,22 +36,34 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 font-body">
               <li>
-                <a href="#" className="text-text-secondary hover:text-text-accent transition-colors">
+                <a
+                  href="#"
+                  className="text-text-secondary hover:text-text-accent transition-colors"
+                >
                   Catálogo de Productos
                 </a>
               </li>
               <li>
-                <a href="#" className="text-text-secondary hover:text-text-accent transition-colors">
+                <a
+                  href="#"
+                  className="text-text-secondary hover:text-text-accent transition-colors"
+                >
                   Sobre Nosotros
                 </a>
               </li>
               <li>
-                <a href="#" className="text-text-secondary hover:text-text-accent transition-colors">
+                <a
+                  href="#"
+                  className="text-text-secondary hover:text-text-accent transition-colors"
+                >
                   Términos y Condiciones
                 </a>
               </li>
               <li>
-                <a href="#" className="text-text-secondary hover:text-text-accent transition-colors">
+                <a
+                  href="#"
+                  className="text-text-secondary hover:text-text-accent transition-colors"
+                >
                   Política de Privacidad
                 </a>
               </li>
@@ -65,15 +78,11 @@ export function Footer() {
             <div className="space-y-3 font-body">
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-text-accent" />
-                <span className="text-text-secondary">
-                  +54 226 644-0616
-                </span>
+                <span className="text-text-secondary">+54 226 644-0616</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-text-accent" />
-                <span className="text-text-secondary">
-                  info@niko3d.com
-                </span>
+                <span className="text-text-secondary">info@niko3d.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-text-accent" />
@@ -89,7 +98,7 @@ export function Footer() {
         <div className="border-t border-surface-accent/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm font-body text-text-muted">
-              © 2024 3D Print Store. Todos los derechos reservados.
+              © 2024 Niko3D. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4">
               <span className="text-sm font-body text-text-muted">

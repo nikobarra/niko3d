@@ -22,10 +22,10 @@ export function Header() {
               </div>
               <div>
                 <h1 className="text-xl font-display font-bold text-text-primary tracking-wide">
-                  3D Print Store
+                  Niko3D
                 </h1>
                 <p className="text-xs font-body text-text-secondary tracking-wide">
-                  Impresiones 3D Personalizadas
+                  Tus ideas, en tres dimensiones
                 </p>
               </div>
             </div>

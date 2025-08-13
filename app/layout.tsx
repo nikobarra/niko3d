@@ -22,7 +22,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: '3D Print Store - Impresiones 3D Personalizadas',
+  title: 'Niko3D - Tus ideas, en tres dimensiones',
   description:
     'Catálogo de productos de impresión 3D personalizados. Encuentra accesorios, decoración, figuras y más.',
   keywords:

@@ -9,10 +9,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-text-primary leading-tight tracking-wide">
-              Impresiones 3D que dan vida a tus ideas
+              Tus ideas, en tres dimensiones
             </h1>
             <p className="text-lg sm:text-xl font-body text-text-secondary max-w-3xl mx-auto leading-relaxed">
-              Descubre nuestra colección de productos únicos y personalizados, 
+              Descubre nuestra colección de productos únicos y personalizados,
               creados con la más alta calidad y tecnología de impresión 3D
             </p>
             <div className="flex justify-center">
