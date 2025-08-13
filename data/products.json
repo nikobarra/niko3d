@@ -1,0 +1,62 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Capibara Flex resorte",
+    "category": "Accesorios de Escritorio",
+    "price": 2500,
+    "description": "Un soporte elegante y resistente para mantener tus auriculares seguros y tu escritorio ordenado.",
+    "size": "15cm x 10cm x 22cm",
+    "pack_quantity": 1,
+    "imageUrl": "/images/capibara.png"
+  },
+  {
+    "id": "prod_002",
+    "name": "Macetas de Diseño Geométrico (Pack x3)",
+    "category": "Hogar y Decoración",
+    "price": 3200,
+    "description": "Pack de tres macetas con un diseño moderno, ideales para suculentas y plantas pequeñas.",
+    "size": "8cm x 8cm (cada una)",
+    "pack_quantity": 3,
+    "imageUrl": "/images/macetas-geometricas.jpg"
+  },
+  {
+    "id": "prod_003",
+    "name": "Figura de Acción Personalizable",
+    "category": "Figuras de Acción",
+    "price": 4500,
+    "description": "Figura articulada de alta calidad, perfecta para coleccionistas y entusiastas del gaming.",
+    "size": "12cm x 6cm x 18cm",
+    "pack_quantity": 1,
+    "imageUrl": "/images/panda.png"
+  },
+  {
+    "id": "prod_004",
+    "name": "Organizador de Herramientas Modular",
+    "category": "Herramientas",
+    "price": 3800,
+    "description": "Sistema modular de organización para herramientas pequeñas, con compartimentos ajustables.",
+    "size": "25cm x 15cm x 8cm",
+    "pack_quantity": 1,
+    "imageUrl": "/images/organizador-herramientas.jpg"
+  },
+  {
+    "id": "prod_005",
+    "name": "Lámpara de Mesa LED (Pack x2)",
+    "category": "Hogar y Decoración",
+    "price": 2800,
+    "description": "Pack de dos lámparas de mesa con diseño minimalista y luz LED ajustable.",
+    "size": "20cm x 15cm x 35cm (cada una)",
+    "pack_quantity": 2,
+    "imageUrl": "/images/lamparas-mesa.jpg"
+  },
+  {
+    "id": "prod_006",
+    "name": "Soporte para Smartphone Multifunción",
+    "category": "Accesorios de Escritorio",
+    "price": 1800,
+    "description": "Soporte versátil para smartphone con función de carga inalámbrica y ajuste de ángulo.",
+    "size": "12cm x 8cm x 18cm",
+    "pack_quantity": 1,
+    "imageUrl": "/images/soporte-smartphone.jpg"
+  }
+]
