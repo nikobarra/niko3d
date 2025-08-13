@@ -1,25 +1,19 @@
 import React from 'react';
-import { Package, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { Logo } from '@/components/ui/Logo';
 
 export function Footer() {
+  // Obtener el año actual de forma dinámica
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-surface-primary border-t border-surface-accent/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-accent-500 to-primary-500 rounded-lg flex items-center justify-center shadow-neon">
-                <Package className="w-6 h-6 text-background" />
-              </div>
-              <div>
-                <h3 className="text-xl font-display font-bold text-text-primary">
-                  Niko3D
-                </h3>
-                <p className="text-sm font-body text-text-muted">
-                  Tus ideas, en tres dimensiones
-                </p>
-              </div>
+            <div className="mb-4">
+              <Logo size="md" showText={true} />
             </div>
             <p className="text-text-secondary font-body leading-relaxed max-w-md">
               Especialistas en impresión 3D personalizada. Creamos productos
@@ -98,12 +92,22 @@ export function Footer() {
         <div className="border-t border-surface-accent/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm font-body text-text-muted">
-              © 2024 Niko3D. Todos los derechos reservados.
+              © {currentYear} Niko3D. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4">
               <span className="text-sm font-body text-text-muted">
                 Hecho con ❤️ en Argentina
               </span>
+              <span className="text-text-muted">•</span>
+              <a
+                href="https://nicolasbarra.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-body text-text-secondary hover:text-text-accent transition-colors flex items-center gap-1"
+              >
+                Desarrollado por Nicolás Barra
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </div>
           </div>
         </div>
