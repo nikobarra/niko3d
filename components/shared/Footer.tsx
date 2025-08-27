@@ -71,17 +71,20 @@ export function Footer() {
             </h4>
             <div className="space-y-3 font-body">
               <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-text-accent" />
+                <Phone className="w-4 h-4 text-text-accent flex-shrink-0" />
                 <span className="text-text-secondary">+54 226 644-0616</span>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-text-accent" />
-                <span className="text-text-secondary">
+                <Mail className="w-4 h-4 text-text-accent flex-shrink-0" />
+                <a
+                  href="mailto:calaverasydiablitos1979@gmail.com"
+                  className="text-text-secondary hover:text-text-accent transition-colors break-all"
+                >
                   calaverasydiablitos1979@gmail.com
-                </span>
+                </a>
               </div>
               <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-text-accent" />
+                <MapPin className="w-4 h-4 text-text-accent flex-shrink-0" />
                 <span className="text-text-secondary">
                   Mar del Plata, Argentina
                 </span>
